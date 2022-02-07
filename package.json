@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a node module which can get you 2d Array",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
