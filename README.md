@@ -3,7 +3,7 @@
 Create perfect 2d arrays in JavaScript without writing a custom `js` for it.
 
 ```js
-import { dArray } from "2d-arrays";
+let dArray = require("2d-arrays");
 
 let x = dArray(2, 2, true);
 // [[0,0],

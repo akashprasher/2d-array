@@ -1,4 +1,5 @@
-export const dArray = (rows, cols, or = undefined) => {
+function dArray(rows, cols, or = undefined) {
+  //export
   let rArray = [];
   for (let i = 0; i < rows; i++) {
     rArray.push([]);
@@ -7,4 +8,6 @@ export const dArray = (rows, cols, or = undefined) => {
     }
   }
   return rArray;
-};
+}
+
+module.exports = dArray;
