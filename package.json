@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "a node module which can get you 2d Array",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashprasher/2d-array.git"
   },
   "keywords": [
     "array",
@@ -14,5 +17,9 @@
     "multidimensional"
   ],
   "author": "akashprasher",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashprasher/2d-array/issues"
+  },
+  "homepage": "https://github.com/akashprasher/2d-array#readme"
 }
